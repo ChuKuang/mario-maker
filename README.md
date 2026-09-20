@@ -2,7 +2,7 @@
 
 类马里奥制造风格的浏览器平台跳跃游戏：跑跳、踩敌、编辑关卡、立刻试玩。
 
-**在线试玩**：部署后填入 `https://<你的用户名>.github.io/<仓库名>/`
+**在线试玩**：https://ChuKuang.github.io/mario-maker/
 
 ## 玩法
 - 移动 `A/D` 或方向键
@@ -38,7 +38,7 @@ npm test         # Playwright（可选）
 
 ## 发布到 GitHub Pages
 
-1. 在 GitHub 新建仓库（例如 `blocksmith`），建议 Public。
+1. 在 GitHub 新建仓库（本项目：`ChuKuang/mario-maker`，Public）。
 2. 在本项目目录执行：
 
 ```bash
@@ -46,14 +46,14 @@ git init
 git add .
 git commit -m "feat: Blocksmith Mario-Maker-like web game"
 git branch -M main
-git remote add origin https://github.com/<用户名>/<仓库名>.git
+git remote add origin https://github.com/ChuKuang/mario-maker.git
 git push -u origin main
 ```
 
 3. 打开仓库 **Settings → Pages**：
    - Source: **GitHub Actions**
 4. 等 Actions 跑完（工作流 `Deploy to GitHub Pages`）。
-5. 访问：`https://<用户名>.github.io/<仓库名>/`
+5. 访问：`https://ChuKuang.github.io/mario-maker/`
 
 > 若 Pages 用的是 “Deploy from a branch” 且分支选 `gh-pages`，可把构建产物推到该分支；本仓库默认用 **Actions** 自动发布 `dist/`。
 
