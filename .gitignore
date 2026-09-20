@@ -1,0 +1,10 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+artifacts/pass-1/
+vite-server.log
+vite-server.err.log
+.DS_Store
+*.local
+.env

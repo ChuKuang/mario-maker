@@ -1,0 +1,15 @@
+{
+  "runId": "pass-1",
+  "viewport": [
+    { "name": "desktop", "width": 1280, "height": 720 }
+  ],
+  "states": [
+    { "state": "menu" },
+    { "state": "active-play" },
+    { "state": "demo-2" },
+    { "state": "demo-3" },
+    { "state": "demo-4" },
+    { "state": "demo-5" },
+    { "state": "edit" }
+  ]
+}
