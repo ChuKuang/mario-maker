@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
 
-// BASE_PATH: GitHub project pages need './' or '/repo-name/'
-// Relative './' works for both local preview and Pages.
+// './' → relative asset URLs, works for GitHub project pages
+// https://user.github.io/repo-name/
 export default defineConfig({
-  base: process.env.BASE_PATH || './',
+  base: './',
   server: {
     host: '127.0.0.1',
     port: 5188,
