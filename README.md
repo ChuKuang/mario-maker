@@ -51,7 +51,8 @@ git push -u origin main
 ```
 
 3. 打开仓库 **Settings → Pages**：
-   - Source: **GitHub Actions**
+   - Source 选 **Deploy from a branch**
+   - Branch 选 **`gh-pages`** / **`/(root)`**
 4. 等 Actions 跑完（工作流 `Deploy to GitHub Pages`）。
 5. 访问：`https://ChuKuang.github.io/mario-maker/`
 
